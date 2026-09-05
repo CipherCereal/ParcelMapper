@@ -1,1 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 .venv/
+venv/
+env/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+
+# Local model repositories / caches
+models/
+sam2/
+
+# Input imagery
+data/input/
+data/output/
+
+# Generated results
+runs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Experimental scripts
+ai/cleanup_*.py
+ai/compare_thresholds.py
+ai/dino_l_sam2.py
+ai/polygonize*.py
+ai/test_aiBase.py
+ai/test_dino_sam2*.py
+ai/test_dinov3.py
+ai/test_dinov3_tiled.py
+ai/test_dinov3l_hot.py
+ai/test_improved_pipeline.py
+ai/test_sam2*.py
+ai/test_thresholds.py
+ai/view_*.py

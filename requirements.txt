@@ -5,3 +5,9 @@ geopandas
 shapely
 rasterio
 streamlit
+pillow
+pandas
+onnxruntime-gpu==1.28.0
+tensorrt
+torch
+torchvision
